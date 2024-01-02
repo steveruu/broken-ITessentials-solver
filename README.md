@@ -1,4 +1,4 @@
-# Cisco ITEssentials solver  
+# Cisco ITEssentials solver made with Copilot
 ## written in python, broken  
 
 ### Description
@@ -9,6 +9,10 @@
 ```py
 python3 string-formatter.py [question]  
 ```
+or
+```py
+python3 string-formatter.py
+```
 
 ### Example
 ```py
@@ -16,6 +20,6 @@ python3 string-formatter.py "Which two statements are true about the structure o
 ```
 
 ### Notes
-- Broken because of the website's random-ass URL length limit
-- The ITExamAnswers URLs cutout at random characters instead of having a set limit
+- Actually works on normally short questions
+- Broken because of the website's random-ass URL length limit (the ITExamAnswers URLs cutout at random characters instead of having a set limit :)
 
