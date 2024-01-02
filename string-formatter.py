@@ -12,9 +12,7 @@ def format_question(question):
     question = re.sub(r'[^a-z0-9- ]+', '', question)
     question = question.replace(' ', '-')
 
-    # itexamanswers.net only allows answers long max 198 characters
-    
-    question = question[:198]
+    question = question[:198] # this worked when I tested it, now it doesn't
     return question
 
 if __name__ == "__main__":
